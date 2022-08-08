@@ -1,5 +1,6 @@
 {
   "name": "hello-rails-react-app",
+  "start": "react-scripts --openssl-legacy-provider start",
   "private": true,
   "dependencies": {
     "@babel/preset-react": "^7.18.6",
