@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import configureStore from "../configureStore"
-import HelloWorld from "./HelloWorld"
+import Greeting from "./Greeting"
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Provider } from 'react-redux'
 
@@ -15,7 +15,7 @@ class App extends React.Component {
         <BrowserRouter>
           <Routes>
             <Route path="/" element= {<h1>Home</h1>} />
-            <Route path="/hello" element= {<HelloWorld greeting="Friend" />} />
+            <Route path="/greet" element= {<Greeting greeting="Friend" />} />
           </Routes>
         </BrowserRouter>
       </Provider>
